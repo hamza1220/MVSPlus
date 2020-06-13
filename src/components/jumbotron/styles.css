@@ -60,6 +60,7 @@
 }
 
 .info-btn {
+	font-family: 'Avenir-Next';
 	background-color: #ffffff;
 	text-decoration: none;
 	border: none;
@@ -134,8 +135,8 @@
 	}
 
 	.jumbotron-backdrop {
-		width: 150%;
-		left: -25%;
+		width: 175%;
+		left: -37.5%;
 	}
 
 	.jumbotron-title {

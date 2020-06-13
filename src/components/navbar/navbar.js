@@ -3,7 +3,6 @@ import { useHistory } from 'react-router-dom';
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 import { search } from '../../api/api';
 import './styles.css';
-import logo from '../../logo.png';
 
 const Navbar = props => { 
 	const [hideOnScroll, setHideOnScroll] = useState(true)
@@ -31,17 +30,21 @@ const Navbar = props => {
 		})
 	}
 
-
-
 	return (
 		<div className={"navbar " + (hideOnScroll? "hide" : "show")}>
 			
-			<a href="/"><img className="nav-logo"src={logo} alt="logo"/></a>
-			<ul className="nav-links">
-				<li><a href="/">  Home </a></li>
-				<li><a href="/"> Genres </a></li>
-			</ul>
-
+			<div className="logo"> 
+				<a href="/">
+					<span> MVS+</span>
+				</a>
+			</div>
+			
+			<div className="nav-table">
+				<ul className="nav-links">
+					<li><a href="/">  Home </a></li>
+					<li><a href="/"> Genres </a></li>
+				</ul>
+			</div>
 			<div className="nav-search">
 				<form onSubmit={e => searchMovie(e)}>
 					<input type="text" name="search" placeholder="Find Movies..." autoComplete="off" onChange={e => setQuery(e.target.value)}/>

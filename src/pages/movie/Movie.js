@@ -23,14 +23,12 @@ const Movie = ({ match, location }) => {
 		getSimilar(match.params.id).then((value)=>setSimilar(value.results))
 	}, [match.params.id])
 
-	const genreList = movie.genres? 
-				movie.genres.map((genre, key)=> 
+	const genreList = movie.genres?.map((genre, key)=> 
 					movie.genres.length - key - 1 ? 
 					<span key={key}> {genre.name} <div className="movie-genre-divider"/> </span> 
 					: 
 					<span key={key}> {genre.name}  </span>
 				)
-		 		:null
 
 	const info = (title, body, isLink) => {
 		return(
@@ -50,59 +48,62 @@ const Movie = ({ match, location }) => {
 		<div className="movie"> 
 			<div className="movie-header">
 				<div className="movie-backdrop">
-					<img className="movie-backdrop-img" src={movie.backdrop_path? imgsrc+"/original"+ movie.backdrop_path : null } alt="backdrop"/>
-					{console.log(movie.backdrop_path)}
+					{movie?.backdrop_path && (
+						<img className="movie-backdrop-img" src={movie.backdrop_path? imgsrc + "/original"+ movie.backdrop_path : null } alt="backdrop"/>
+					)}
 					<div className="movie-backdrop-overlay"/> 
 				</div>
 				<div className="movie-header-grid">
 			      	<Grid container > 
 				        <Grid item xs={12} md={4} className="movie-poster-container">
-							<img className={" movie-poster"} src={movie.poster_path? imgsrc + "/w500"+ movie.poster_path : null  } alt="poster"/>
+							{movie?.poster_path && (
+								<img className={" movie-poster"} src={movie.poster_path? imgsrc + "/w500"+ movie.poster_path : null  } alt="poster"/>
+							)}
 				        </Grid>
 				        <Grid item xs={12} md={8} className="movie-header-details">
 				          	<div className="center-v">
-					          	<div className="movie-release"> {movie.release_date? movie.release_date.split('-')[0] : null} </div>
-					          	<span className="movie-title">  {movie.title}  
-					          		<div className="movie-rating"> {movie.vote_average? movie.vote_average : 'N/A'} </div> 
+					          	<div className="movie-release"> { movie?.release_date?.split('-')[0] } </div>
+					          	<span className="movie-title">  { movie.title }  
+					          		<div className="movie-rating"> { movie?.vote_average || 'N/A' } </div> 
 					          	</span>
 					        	<br/>
-					        	<div className="movie-genre-list"> {genreList} </div>
+					        	<div className="movie-genre-list"> { genreList } </div>
 					          	<br/> 
-				          		<div className="movie-release-md"> {movie.release_date? getYear(movie.release_date) : null} </div>
+				          		<div className="movie-release-md"> { movie.release_date? getYear(movie.release_date) : null } </div>
 							</div>		        	
 				        </Grid>
 			      	</Grid>
 			    </div>
 			</div>
 
+			
 			<Grid container>
 		        <Grid item xs={12} md={9}>
 		          	<div className="movie-body">
 		          		<div className="overview">
 			          		<div className="movie-body-title"> <span>Overview</span> </div>
-			          		<p className="movie-body-overview"> {movie? movie.overview : null} </p>
+			          		<p className="movie-body-overview"> { movie?.overview?? 'The synopsis for this movie has not been released yet.' } </p>
 			          	</div>
-			          	<div className="cast">
-			          		<div className="movie-body-title"> <span>Cast & Crew</span> </div>
-			          		<div className="cast-avatars">
-				          		{credits.cast? 
-				          			credits.cast.slice(0,Math.min(credits.cast.length, 10)).map((cred, ckey) => 
-				          				<div className="movie-avatar" key={ckey}><Avatar dp={cred? imgsrc + "/w185" + cred.profile_path : null} name={cred.name} role={cred.character}/></div>) 
-				          			: null
-				          		}
-				          	</div>
-				          	<div className="cast-avatars">
-				          		{credits.crew? 
-				          			(credits.crew.find(element=> element.job === "Director")? [credits.crew.find(element=> element.job === "Director")].map((cred, dkey) => 
-				          				<div className="movie-avatar" key={dkey}><Avatar dp={cred.profile_path!==null ? imgsrc + "/w185" + cred.profile_path: null} name={cred.name} role={"Director"}/></div>) 
+						{
+							credits?.cast?.length>0 && (
+							<div className="cast">
+								<div className="movie-body-title"> <span>Cast & Crew</span> </div>
+								<div className="cast-avatars">
+									{credits.cast?.slice(0,Math.min(credits.cast.length, 10)).map((cred, ckey) => 
+											<div className="movie-avatar" key={ckey}><Avatar dp={cred? imgsrc + "/w185" + cred.profile_path : null} name={cred.name} role={cred.character}/></div>) 
+									}
+								</div>
+								<div className="cast-avatars">
+									{credits.crew?.find(element=> element.job === "Director")? [credits.crew.find(element=> element.job === "Director")].map((cred, dkey) => 
+											<div className="movie-avatar" key={dkey}><Avatar dp={cred.profile_path!==null ? imgsrc + "/w185" + cred.profile_path: null} name={cred.name} role={"Director"}/></div>) 
 										:
 										null
-	      							 )
-				          			: null
-				          		}
-				          	</div>
-				          	
-			          	</div>
+									}
+								</div>
+							</div>
+							) 
+						}
+			          	
 		          	</div>
 		        </Grid>
 
@@ -124,18 +125,25 @@ const Movie = ({ match, location }) => {
 		        </Grid>
 	      	</Grid>
 
-	      	<div className="movie-body"> <div className="movie-body-title"> <span>Reviews</span> </div></div>
-	      	<div className="movie-reviews-similar-container"> 
-		      	<div className="movie-reviews">
-			      	<Accordion reviews={reviews}/>
-				</div>
-			</div>
+	      	{ similar?.length>0 && (
+				<>
+					<div className="movie-body"> <div className="movie-body-title"> <span>Reviews</span> </div></div>
+					<div className="movie-reviews-similar-container"> 
+						<div className="movie-reviews">
+							<Accordion reviews={reviews}/>
+						</div>
+					</div>
+				</>
+			)}
 
-			<div className="movie-body"> <div className="movie-body-title"> <span>Similar Movies</span> </div></div>		
-	      	<div className="movie-reviews-similar-container pt-0"> 
-		      	<Slider content={similar} title={""} arrows={true}/>
-			</div>
-
+			{ similar?.length>0 && (
+				<>
+					<div className="movie-body"> <div className="movie-body-title"> <span>Similar Movies</span> </div></div>		
+					<div className="movie-reviews-similar-container pt-0"> 
+						<Slider content={similar} title={""} arrows={true}/>
+					</div>
+				</>
+			)}
 		</div>
 	)
 }

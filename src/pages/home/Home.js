@@ -21,7 +21,7 @@ const Home = (props) => {
 
   return (
     <div>
-      <Jumbotron content={popular? popular[2] : null} scrollTo="content" genres={genres}/>
+      <Jumbotron content={popular[1]?? null} scrollTo="content" genres={genres}/>
       <div className="content-wrapper" id="content">
         <Slider content={nowPlaying} title={"Now Playing"} sliderClass={""} arrows={true}/>
         <Slider content={popular} title={"Popular"} sliderClass={""} arrows={true}/>

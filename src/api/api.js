@@ -7,13 +7,6 @@ axios.defaults.baseURL = tmdb
 axios.defaults.params = {}
 axios.defaults.params['api_key'] = api_key
 
-function sleep(ms) {
-  return new Promise((resolve) => {
-    setTimeout(resolve, ms);
-  });
-}
-
-
 export const getNowPlaying = async(page) => {
 	const req = await axios({
 		method: 'GET',

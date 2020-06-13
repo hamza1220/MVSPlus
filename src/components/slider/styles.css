@@ -13,7 +13,6 @@
 
 .slider {
 	overflow-x: hidden;
-
 }
 
 .slider-title{
@@ -22,6 +21,10 @@
 	min-height: 39px;
 }
 
+.slider-title span {
+	font-size: 2rem;
+	font-weight: 600;
+}
 .slider-bar {
 	display: flex;
 	position: relative;
@@ -105,13 +108,16 @@
 		flex: 0 0 10%;
 		visibility: visible;
 	}
+
+	.slider-title span {
+		font-size: 1.8rem;
+	}
 }
 
 @media screen and (max-width: 479px) {
 	.item {
 		flex: 0 0 32.7%;
 	}
-
 
 	.slider-bottom {
 		height: 25px;
@@ -120,5 +126,9 @@
 	.no-img span{
 		font-size: 0.7rem;
 		font-weight: 500;
+	}
+
+	.slider-title span {
+		font-size: 1.5rem;
 	}
 }
