@@ -1,0 +1,134 @@
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	min-height: 80px;
+	z-index: 20;
+	padding: 10px 30px;
+}
+
+.hide {
+	background-color: transparent;
+}
+
+.show{
+	background-color: #141414;
+}
+
+.nav-logo {
+	height: 40px !important;
+	margin-top: 10px;
+	float: left;
+	filter: invert(77%) sepia(84%) saturate(1102%) hue-rotate(359deg) brightness(101%) contrast(106%);
+}
+
+.nav-links {
+	float: left;
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+}
+
+.nav-links li {
+	display: inline-block;
+	padding: 10px;
+	font-size: 1.2rem;
+}
+
+.nav-links a,.nav-links  a:visited{
+	color: white;
+	text-decoration: none;
+	transition: color 500ms ease;
+}
+
+.nav-links a:hover,.nav-links  a:focus {
+	color: gold;
+}
+
+.nav-search {
+	float: right;
+	width: 500px;
+	height: 40px;
+	margin-top: 10px;
+}
+
+.nav-search input[type=text] {
+  width: 20px;
+  height: 100%;
+  float: right;
+  color: white;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  background-image: url('icons/search-white.png');
+  background-color: transparent;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-search input[type=text]:focus {
+	width: 100%;
+	border: 2px solid gold;
+	border-radius: 4px;
+	outline: none;
+	background-image: url('icons/search-yellow.png');
+	cursor: initial; 
+}
+
+.hide .nav-search input[type=text]:-webkit-input-placeholder, { /* Edge */
+  color: white;
+}
+
+.hide .nav-search input[type=text]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+.hide .nav-search input[type=text]::placeholder {
+  color: gold;
+}	
+
+
+@media screen and (max-width: 1025px) {
+	.nav-search {
+		float: right;
+		width: 200px;
+		height: 40px;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.nav-logo {
+		height: 20px !important;
+	}
+
+	.nav-links {
+		margin: 5px 0px 0px 0px;
+	}
+
+	.nav-links li {
+		font-size: 0.8rem;
+	}
+
+	.nav-search {
+		width: 30px;
+		margin-top: 5px;
+	}
+
+	.nav-search:focus-within {
+		width: 100%;
+	}
+
+	.nav-search input[type=text] {
+	  width: 10px;
+	  font-size: 0.8rem;
+	  padding: 12px 20px 12px 40px;
+	  -webkit-transition: width 0.4s ease-in-out;
+	  transition: width 0.4s ease-in-out;
+	  cursor: pointer;
+	}
+}

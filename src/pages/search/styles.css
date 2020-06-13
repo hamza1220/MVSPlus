@@ -1,0 +1,19 @@
+.search-container {
+	text-align: center;
+}
+
+.spacer {
+	height: 80px;	
+}
+
+.search-slider {
+	background-color: red;
+
+}
+
+.row {
+	width: 95%;
+	min-height: 100px;
+	display: inline-block;
+	overflow: visible;
+}

@@ -1,0 +1,1163 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"backdrop_path"
+			],
+			[
+				"car",
+				"cardDim"
+			],
+			[
+				"row",
+				"rowc"
+			],
+			[
+				"set",
+				"setRowc"
+			],
+			[
+				"flex",
+				"flex-flow\tproperty"
+			],
+			[
+				"get",
+				"getWidth"
+			],
+			[
+				"slider",
+				"sliderDim"
+			],
+			[
+				"use",
+				"useEffect"
+			],
+			[
+				"slide",
+				"sliderDim"
+			],
+			[
+				"slid",
+				"sliderDim"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"serach",
+				"searchMovie"
+			],
+			[
+				"search",
+				"searchMovie"
+			],
+			[
+				"se",
+				"setRedirect"
+			],
+			[
+				"eas",
+				"ease-in-out"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"scr",
+				"scrollY"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"tra",
+				"translate()\ttransform"
+			],
+			[
+				"pos",
+				"poster_path"
+			],
+			[
+				"cla",
+				"classes"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"mone",
+				"moneyConverterHelper"
+			],
+			[
+				"time",
+				"timeConverter"
+			],
+			[
+				"tet",
+				"text-align\tproperty"
+			],
+			[
+				"paddi",
+				"padding-bottom\tproperty"
+			],
+			[
+				"ava",
+				"avatarImageContainer"
+			],
+			[
+				"min-",
+				"min-width\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"paddin",
+				"padding\tproperty"
+			],
+			[
+				"fl",
+				"flex-end\talign-self"
+			],
+			[
+				"ali",
+				"align-self\tproperty"
+			],
+			[
+				"tran",
+				"translateX()\ttransform"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"fot",
+				"font-size\tproperty"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"movie",
+				"movie-backdrop"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"inf",
+				"InfoIcon"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"bar",
+				"barDim"
+			],
+			[
+				"Slid",
+				"SliderBar"
+			],
+			[
+				"over",
+				"overflow\tproperty"
+			],
+			[
+				"Sli",
+				"SliderWrapper"
+			],
+			[
+				"card",
+				"cardDim"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"sert",
+				"setCardDim"
+			],
+			[
+				"arrow",
+				"ArrowBackIosIcon"
+			],
+			[
+				"Arr",
+				"ArrowBackIosIcon"
+			],
+			[
+				"api",
+				"api_key"
+			],
+			[
+				"ap",
+				"api_key"
+			],
+			[
+				"For",
+				"Forwarder-details-company"
+			],
+			[
+				"re",
+				"recaptchaResponse"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"reca",
+				"recaptchaToken"
+			],
+			[
+				"tans",
+				"translateY()\ttransform"
+			],
+			[
+				"Add",
+				"Address"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"outline",
+				"outline-color\tproperty"
+			],
+			[
+				"border",
+				"border-color\tproperty"
+			],
+			[
+				"out",
+				"outline\tproperty"
+			],
+			[
+				"texta",
+				"text-align\tproperty"
+			],
+			[
+				"distr",
+				"distributed"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"lasts",
+				"lasts_till"
+			],
+			[
+				"claimant",
+				"claimant_id"
+			],
+			[
+				"Dis",
+				"Distribution"
+			],
+			[
+				"selected",
+				"selectedPackage"
+			],
+			[
+				"selcted",
+				"selectedPackage"
+			],
+			[
+				"selecte",
+				"selectedPackage"
+			],
+			[
+				"dis",
+				"distributePackages"
+			],
+			[
+				"http_respons",
+				"http_response_code"
+			],
+			[
+				"selec",
+				"selectedPackage"
+			],
+			[
+				"focused",
+				"focusedPackageItems"
+			],
+			[
+				"view",
+				"viewPackage"
+			],
+			[
+				"la",
+				"latest_distribution_date"
+			],
+			[
+				"bill",
+				"bill_img"
+			],
+			[
+				"fam",
+				"family_size"
+			],
+			[
+				"form",
+				"formData"
+			],
+			[
+				"thak",
+				"thankyou"
+			],
+			[
+				"Bil",
+				"bill_amount"
+			],
+			[
+				"image",
+				"imageHandler"
+			],
+			[
+				"bi",
+				"bill_img"
+			],
+			[
+				"inlie",
+				"inline-block\tdisplay"
+			],
+			[
+				"sear",
+				"Search"
+			],
+			[
+				"text-d",
+				"text-decoration\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"old",
+				"old_img"
+			],
+			[
+				"img",
+				"img_url"
+			],
+			[
+				"pas",
+				"passwordOne"
+			],
+			[
+				"do",
+				"doPasswordUpdate"
+			],
+			[
+				"margn",
+				"margin-top\tproperty"
+			],
+			[
+				"bak",
+				"background-color\tproperty"
+			],
+			[
+				"bord",
+				"border-radius\tproperty"
+			],
+			[
+				"overf",
+				"overflow-x\tproperty"
+			],
+			[
+				"is",
+				"_isMounted"
+			],
+			[
+				"onc",
+				"onClick"
+			],
+			[
+				"unver",
+				"unverified"
+			],
+			[
+				"vendor",
+				"vendor_unverified"
+			],
+			[
+				"und",
+				"unidentified"
+			],
+			[
+				"vend",
+				"vendor_verified"
+			],
+			[
+				"user",
+				"usertype"
+			],
+			[
+				"fire",
+				"fireBaseUrl"
+			],
+			[
+				"pass",
+				"passwordOne"
+			],
+			[
+				"pasw",
+				"passwordOne"
+			],
+			[
+				"sig",
+				"signupUser"
+			],
+			[
+				"flex-",
+				"flex-start\talign-self"
+			],
+			[
+				"com",
+				"company_icon"
+			],
+			[
+				"wd",
+				"width\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"book",
+				"bookNow"
+			],
+			[
+				"container",
+				"container_icon"
+			],
+			[
+				"padi",
+				"padding-right\tproperty"
+			],
+			[
+				"bacl",
+				"background-color\tproperty"
+			],
+			[
+				"logged",
+				"loggedin_vendor"
+			],
+			[
+				"e",
+				"e45447"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"al",
+				"align-content\tproperty"
+			],
+			[
+				"fin",
+				"final_count"
+			],
+			[
+				"incorrec",
+				"Incorrect"
+			],
+			[
+				"msts",
+				"mstsum2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "components/slider/card.js",
+			"settings":
+			{
+				"buffer_size": 779,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/slider/styles.css",
+			"settings":
+			{
+				"buffer_size": 1737,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/movie/Movie.js",
+			"settings":
+			{
+				"buffer_size": 5866,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/movie/styles.css",
+			"settings":
+			{
+				"buffer_size": 5164,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/slider/sliderBar.js",
+			"settings":
+			{
+				"buffer_size": 2909,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/slider/slider.js",
+			"settings":
+			{
+				"buffer_size": 463,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/search/Search.js",
+			"settings":
+			{
+				"buffer_size": 1019,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/search/styles.css",
+			"settings":
+			{
+				"buffer_size": 203,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Install Package Control"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 412.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/hamza/Desktop/nmdb/src/components/results/styles.css",
+		"/home/hamza/Desktop/nmdb/src/pages/movie/Movie.js",
+		"/home/hamza/Desktop/nmdb/src/pages/movie/styles.css",
+		"/home/hamza/Desktop/nmdb/src/pages/home/Home.js",
+		"/home/hamza/Desktop/nmdb/src/components/results/results.js",
+		"/home/hamza/Desktop/nmdb/src/components/slider/styles.css",
+		"/home/hamza/Desktop/nmdb/src/components/slider/slider.js",
+		"/home/hamza/Desktop/nmdb/src/api/api.js",
+		"/home/hamza/Desktop/nmdb/src/App.js",
+		"/home/hamza/Desktop/nmdb/src/components/navbar/navbar.js",
+		"/home/hamza/Desktop/nmdb/src/pages/search/search.js",
+		"/home/hamza/Desktop/Freight/frontend/src/components/Landing.js",
+		"/home/hamza/Desktop/nmdb/src/pages/search/untitled",
+		"/home/hamza/Desktop/nmdb/src/pages/home/loader.js",
+		"/home/hamza/Desktop/nmdb/src/components/jumbotron/jumbotron.js",
+		"/home/hamza/Desktop/nmdb/src/components/slider/loader.js",
+		"/home/hamza/Desktop/nmdb/src/components/slider/card.js",
+		"/home/hamza/Desktop/nmdb/src/components/slider/sliderBar.js",
+		"/home/hamza/Desktop/nmdb/src/components/jumbotron/loader.js",
+		"/home/hamza/Desktop/nmdb/src/components/jumbotron/styles.css",
+		"/home/hamza/Desktop/nmdb/package.json",
+		"/home/hamza/Desktop/nmdb/src/components/accordion/styles.css",
+		"/home/hamza/Desktop/nmdb/src/components/scrollArrow/styles.css",
+		"/home/hamza/Desktop/nmdb/src/components/avatar/styles.css",
+		"/home/hamza/Desktop/nmdb/src/components/navbar/styles.css",
+		"/home/hamza/Desktop/Freight/frontend/src/components/Navbar/Toolbar/Toolbar.js",
+		"/home/hamza/Desktop/Freight/frontend/src/components/Navbar/Toolbar/Toolbar.css",
+		"/home/hamza/Desktop/nmdb/src/components/scrollToTop/scrollToTop.js",
+		"/home/hamza/Desktop/nmdb/src/components/accordion/accordion.js",
+		"/home/hamza/Desktop/nmdb/src/helpers/helpers.js",
+		"/home/hamza/Desktop/nmdb/src/components/avatar/avatar.js",
+		"/home/hamza/Desktop/nmdb/src/components/scrollArrow/scrollArrow.js",
+		"/home/hamza/Desktop/nmdb/src/components/genreList/genreList.js",
+		"/home/hamza/Desktop/nmdb/src/pages/Movie.js",
+		"/home/hamza/Desktop/nmdb/src/pages/styles.css",
+		"/home/hamza/Desktop/nmdb/src/pages/Home.js",
+		"/home/hamza/Desktop/nmdb/src/App.css",
+		"/home/hamza/Desktop/Freight/frontend/src/components/Results.css",
+		"/home/hamza/Desktop/nmdb/src/components/navbar/Toolbar/DrawerToggleButton.js",
+		"/home/hamza/Desktop/nmdb/src/components/navbar/Toolbar/Toolbar.js",
+		"/home/hamza/Desktop/nmdb/src/components/navbar/SideDrawer/SideDrawer.js",
+		"/home/hamza/Desktop/nmdb/src/components/navbar/Toolbar/Toolbar.css",
+		"/home/hamza/Desktop/nmdb/src/components/navbar/ProgNavbar.js",
+		"/home/hamza/Desktop/nmdb/src/components/Navbar/ProgNavbar.js",
+		"/home/hamza/Desktop/Freight/frontend/src/components/Navbar/ProgNavbar.js",
+		"/home/hamza/Desktop/Freight/frontend/src/App.js",
+		"/home/hamza/Desktop/nmdb/src/components/slider.js",
+		"/home/hamza/Desktop/nmdb/src/components/styles.css",
+		"/home/hamza/Desktop/nmdb/src/components/card.js",
+		"/home/hamza/Desktop/nmdb/src/components/sliderBar.js",
+		"/home/hamza/.cache/.fr-do3Z8f/NetflixSans-Icon/NetflixSans-Icon.woff2",
+		"/home/hamza/Desktop/nmdb/src/components/sliderWrapper.js",
+		"/home/hamza/Desktop/Freight/frontend/src/components/Home.css",
+		"/home/hamza/Desktop/nmdb/src/components/useSizeElement.js",
+		"/home/hamza/Desktop/nmdb/src/index.js",
+		"/home/hamza/Desktop/CEat/frontend/src/components/user_orders.js",
+		"/home/hamza/Desktop/Freight/frontend/src/components/SignIn.js",
+		"/home/hamza/Desktop/nmdb/src/API/api.js",
+		"/home/hamza/Desktop/Freight/frontend/src/components/Results.js",
+		"/home/hamza/Desktop/Freight/server.js",
+		"/home/hamza/Desktop/covid19donations/src/pages/ClaimantForm.js",
+		"/home/hamza/Desktop/Freight/frontend/src/components/Landing.css",
+		"/home/hamza/Desktop/Freight/frontend/src/components/PasswordForget.js",
+		"/home/hamza/Desktop/Freight/frontend/src/index.js",
+		"/home/hamza/Desktop/Freight/frontend/src/components/Home.js",
+		"/home/hamza/Desktop/Freight/frontend/src/components/SignUp.js",
+		"/home/hamza/Desktop/Freight/frontend/src/components/Book.js",
+		"/home/hamza/Desktop/Freight/frontend/src/components/MyRates.js",
+		"/home/hamza/Desktop/covid19donations/src/pages/DonorForm.js",
+		"/home/hamza/Desktop/covid19donations/src/styles/Forms.css",
+		"/home/hamza/Desktop/Donations/Donations-api/app/view-distributions.php",
+		"/home/hamza/Desktop/covid19donations/src/App.css",
+		"/home/hamza/Desktop/covid19donations/src/styles/Home.css",
+		"/home/hamza/Desktop/covid19donations/src/pages/Home.js",
+		"/home/hamza/Desktop/covid19donations/src/App.js",
+		"/home/hamza/Desktop/Donations/Donations-api/app/header.php",
+		"/home/hamza/Desktop/Donations/Donations-api/app/manage-claimants.php",
+		"/home/hamza/Desktop/Donations/Donations-api/app/manage-procurements.php",
+		"/home/hamza/Desktop/Donations/Donations-api/app/manage-packages.php",
+		"/home/hamza/Desktop/Donations/Donations-api/util/helpers.php",
+		"/home/hamza/Desktop/Donations/Donations-api/util/config.php",
+		"/home/hamza/Desktop/Donations-api/util/db_connect.php",
+		"/home/hamza/Desktop/Donations-api/util/config.php",
+		"/home/hamza/Desktop/Donations/Donations-api/util/db_connect.php",
+		"/home/hamza/Desktop/Freight/frontend/src/components/EditProfile.js",
+		"/home/hamza/Desktop/Freight/frontend/src/components/Book.css",
+		"/home/hamza/Desktop/Freight/frontend/src/components/PasswordForget.css",
+		"/home/hamza/Desktop/Donations-api/public-api/stats.php",
+		"/home/hamza/Desktop/Donations-api/app/stats.php",
+		"/home/hamza/Desktop/Donations-api/util/helpers.php",
+		"/home/hamza/Desktop/Donations-api/app/dashboard.php",
+		"/home/hamza/Desktop/Donations-api/public-api/claimant.php",
+		"/home/hamza/Desktop/Donations-api/public-api/donation.php",
+		"/home/hamza/Desktop/Donations-api/public-api/package.php",
+		"/home/hamza/Desktop/Donations-api/app/resources/styles.css",
+		"/home/hamza/Desktop/Donations-api/app/manage-procurements.php",
+		"/home/hamza/Desktop/Donations-api/app/manage-packages.php",
+		"/home/hamza/Desktop/Donations-api/app/distribute-packages.php",
+		"/home/hamza/Desktop/covid19donations/src/pages/Search.js",
+		"/home/hamza/Desktop/covid19donations/package.json",
+		"/home/hamza/Desktop/Donations-api/public-api/captcha.php",
+		"/home/hamza/Desktop/covid19donations/src/Functions.js",
+		"/home/hamza/Desktop/Freight/frontend/src/firebase/db.js",
+		"/home/hamza/Desktop/Donations-api/app/manage-donations.php",
+		"/home/hamza/Desktop/Donations-api/app/manage-requests.php",
+		"/home/hamza/Desktop/Donations-api/app/header.php",
+		"/home/hamza/Desktop/Donations-api/public-api/request.php",
+		"/home/hamza/Desktop/Donations-api/index.php",
+		"/home/hamza/Desktop/Freight/frontend/src/components/countries.json",
+		"/home/hamza/Desktop/Freight/frontend/src/components/SignUp.css",
+		"/home/hamza/Desktop/covid19donations/src/data/pk.json",
+		"/home/hamza/Desktop/covid19donations",
+		"/home/hamza/Desktop/covid19donations/src/pages/Sample.js",
+		"/home/hamza/Desktop/covid19donations/src/pk.json",
+		"/home/hamza/Downloads/pk.json",
+		"/home/hamza/Desktop/covid19donations/src/pages/Forms.css",
+		"/home/hamza/Desktop/check/style.css",
+		"/home/hamza/Desktop/check/readme.txt",
+		"/home/hamza/Desktop/check/demo.html",
+		"/home/hamza/Desktop/Donations-api/app/home.php",
+		"/home/hamza/Desktop/Donations-api/app/dist-try.php",
+		"/home/hamza/Desktop/Donations-api/app/get-media.php",
+		"/home/hamza/Desktop/Donations-api/app/vue-dist.php",
+		"/home/hamza/Desktop/Donations-api/app/distribute.php",
+		"/home/hamza/Desktop/covid19donations/src/pages/Home.css",
+		"/home/hamza/Desktop/CEat/frontend/src/components/userscreen.js",
+		"/home/hamza/Desktop/CEat/frontend/src/components/userscreen.css",
+		"/home/hamza/Desktop/CEat/frontend/src/components/user_orders.css"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"red",
+			"slider-bar",
+			"; setLoaded(loaded=> loaded+1)}",
+			"10%",
+			"10",
+			"15",
+			"19",
+			"22.5",
+			"y=\"0\"",
+			"height: '100%'",
+			"y=\"0\"",
+			"c9c9c9",
+			"rendermenu",
+			"btn",
+			"componentWillMount(",
+			"console.log",
+			"this.state.type",
+			"res-top",
+			"filter_container",
+			"result-sb",
+			"searchbar",
+			"search-bar",
+			"menuplacemen"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"12%",
+			"12",
+			"10",
+			"15",
+			"19",
+			"y=\"100vh\"",
+			"height: '22.5%'",
+			"y=\"100vh\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "components/slider/card.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "components/slider/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1259,
+								1259
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1050.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "pages/movie/Movie.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1879,
+								1879
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 458.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "pages/movie/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2709,
+								2709
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3390.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "components/slider/sliderBar.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1776,
+								1776
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "components/slider/slider.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								384,
+								384
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "pages/search/Search.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								681,
+								681
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "pages/search/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 208.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "setupTests.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 146.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

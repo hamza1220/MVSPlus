@@ -1,0 +1,173 @@
+.jumbotron {	
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	background-color: white;
+	transition: 500ms ease-in-out;
+}
+
+.jumbotron-backdrop {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	z-index: 1;
+}
+
+.jumbotron-overlay {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#002f4b,#002f4b);
+	background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+	opacity: 0.5; 
+	z-index: 2;
+}
+
+.jumbotron-content {
+	position: absolute;
+	bottom: 10%;
+	width: 40%;
+	margin-left: 5%;
+	z-index: 3;
+}
+
+.jumbotron-title {
+	font-size: 5rem;
+	font-weight: 900;
+	color: gold;
+}
+
+.jumbotron-overview {
+	margin-bottom: 20px;
+	font-size: 1.7rem;
+	color: white;
+}
+
+.jumbotron-genres {
+	display: none;
+}
+
+.genre-divider {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	background-color: gold;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.info-btn {
+	background-color: #ffffff;
+	text-decoration: none;
+	border: none;
+	color: #141414;
+	padding: 1rem 2rem;
+	border-radius: 5px;
+}
+
+.info-btn:hover {
+	background-color: #c9c9c9;
+	transition: 200ms ease;
+	opacity: 0.7;
+}
+
+.info-btn:focus {
+	outline: none;
+}
+
+.info-btn-icon {
+	font-size: 2rem !important;
+	margin-right: 15px;
+	vertical-align: middle;	
+}
+
+.info-btn-text {
+	font-size: 1.4rem;
+	font-weight: 600;
+	vertical-align: middle;	
+}
+
+.jumbotron-scroll{
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translate(-50%, -5%);
+	z-index: 4;
+	width: 50px;
+	height: 50px;
+}
+
+@media screen and (max-width: 1025px) {
+	.jumbotron {
+		overflow: hidden;
+	}
+
+	.jumbotron-backdrop {
+		width: 200%;
+		left: -50%;
+	}
+
+	.jumbotron-content {	
+		width: 80%;
+		margin: 0;
+		bottom: 10%;
+		left: 50%;
+		transform: translate(-50%, 0%);
+	}
+
+	.jumbotron-title {
+		font-size: 3.5rem;	
+	}
+
+	.jumbotron-overview {
+		font-size: 1.4rem;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.jumbotron {
+		height: 45vh;
+	}
+
+	.jumbotron-backdrop {
+		width: 150%;
+		left: -25%;
+	}
+
+	.jumbotron-title {
+		font-size: 2rem;
+	}
+
+	.jumbotron-overview {
+		display: none;
+	}
+
+	.jumbotron-genres {
+		font-size: 1rem;
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.jumbotron-scroll {
+		display: none;
+	}
+
+	.info-btn {
+		padding: 0.5rem 1rem;
+	}
+
+	.info-btn-text {
+		font-size: 0.75rem;
+		vertical-align: middle;
+	}
+
+	.info-btn-icon {
+		font-size: 1.25rem !important;
+		margin-right: 5px;
+	}
+
+}

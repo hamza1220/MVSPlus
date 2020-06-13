@@ -1,6 +1,11 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
+
+.App {
+  /*margin-top: 80px;*/
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +40,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.movie{
+  color: white;
 }

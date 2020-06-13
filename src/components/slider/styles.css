@@ -1,0 +1,124 @@
+/*html {
+    overflow: scroll;
+    overflow-x: hidden;*/
+/*}*/
+/*::-webkit-scrollbar {*/
+    /*width: 0px;*/  /* Remove scrollbar space */
+    /*background: transparent;*/  /* Optional: just make scrollbar invisible */
+/*}*/
+/* Optional: show position indicator in red */
+/*::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}*/
+
+.slider {
+	overflow-x: hidden;
+
+}
+
+.slider-title{
+	margin: 1em 0em 1em 1em;
+	color: #fff;
+	min-height: 39px;
+}
+
+.slider-bar {
+	display: flex;
+	position: relative;
+	overflow-y: visible;
+	width: 100%;
+}
+
+.item {
+	flex: 0 0 10.9%;
+	text-align: center;
+	margin: 0 2px;
+	transition: transform 500ms ease 300ms;
+}
+
+.poster {
+	width: 100%;
+	height: 100%;
+}
+
+.slider-btn {
+	position: sticky;
+	flex: 0 0 5%;
+	background-color: black;
+	opacity: 0.6;
+	z-index: 10;
+	border: 0;
+	outline: none;
+	visibility: hidden;
+}
+
+.slider-bar:hover .slider-btn {
+	visibility: visible;
+}
+
+.slider-btn-right{
+	right: 0;
+}
+
+.slider-btn-left{
+	left: 0;
+}
+
+.slider-btn-arrow{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.slider-btn:hover .slider-btn-arrow{
+	transform: translate(-25%, -25%) scale(1.5);
+	transition: transform 300ms ease 100ms;
+}
+
+.slider-bottom {
+	height: 70px;
+}
+
+.no-img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.no-img span {
+	position: absolute;
+	bottom:10%;
+	left:50%;
+	transform: translate(-50%,10%);
+	font-size: 1.2rem;
+	font-weight: 600;
+	width: 80%;
+}
+
+@media screen and (max-width: 1025px) {
+	.item {
+		flex: 0 0 19.7%;
+	}
+
+	.slider-btn {
+		flex: 0 0 10%;
+		visibility: visible;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.item {
+		flex: 0 0 32.7%;
+	}
+
+
+	.slider-bottom {
+		height: 25px;
+	}
+
+	.no-img span{
+		font-size: 0.7rem;
+		font-weight: 500;
+	}
+}

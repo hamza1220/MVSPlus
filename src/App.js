@@ -1,26 +1,51 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
+import { ThemeProvider } from "@material-ui/styles";
+import { CssBaseline, createMuiTheme, responsiveFontSizes } from "@material-ui/core";
+
+import Navbar from './components/navbar/navbar'
+import Home from './pages/home/Home';
+import Movie from './pages/movie/Movie'
+import Search from './pages/search/Search'
+import ScrollToTop from './components/scrollToTop/scrollToTop'
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+let theme = createMuiTheme({
+  palette: {
+    type: "dark",
+    background: {
+      default: "#141414"
+    }
+  },
+  typography: {
+    fontFamily: "Netflix Sans, Roboto, sans-serif",
+  }
+});
+theme = responsiveFontSizes(theme)
+
+class App extends Component {
+  render() {
+    const App = () => (
+      <ThemeProvider theme={theme}>
+        <ScrollToTop/>
+        <CssBaseline />
+        <div className = "App">
+          <Navbar/>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/Movie/:id' component={Movie} />
+            <Route path='/Search' component={Search} />
+          </Switch>
+        </div>
+      </ThemeProvider>
+    )
+    return (
+      <Switch>
+        <App/>
+      </Switch>
+    );
+  }
 }
 
 export default App;
