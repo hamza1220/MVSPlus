@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { style } from 'glamor';
 import useDimensions from 'react-use-dimensions';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
@@ -10,8 +10,9 @@ import Card from './card'
 const SliderBar = (props, size) => {
     const [left, setLeft] = useState(0);
     const [right, setRight] = useState(0);
-    const [sliderRef, sliderDim] = useDimensions();
+    const [sliderRef, sliderDim] = useDimensions({ liveMeasure: false });
     const [cardDim, setCardDim] = useState(0);
+    const [slideMultiplier, setSlideMultiplier] = useState(0);
     const [slideBy, setSlideBy] = useState(0);
     
     const styles = {
@@ -33,23 +34,41 @@ const SliderBar = (props, size) => {
         })
     }
 
+    useEffect(()=> {
+        if(sliderDim.width > 1024){
+            setCardDim({width: 0.109 * sliderDim.width, height: null});
+            setSlideMultiplier(1.45);
+        } else if(sliderDim.width > 478) {
+            setCardDim({width: 0.197 * sliderDim.width, height: null})
+            setSlideMultiplier(1.5);
+        } else {
+            setCardDim({width: 0.327 * sliderDim.width, height: null})
+            setSlideMultiplier(1.3);
+        }
+    }, [sliderDim.width])
+
     const nextClick = (e) => {
         e.preventDefault();
         setRight(right => right+1)
         setLeft(left => left + 1)
-        setSlideBy(slideBy => slideBy - cardDim.width)
+        if (left>0) {
+            setSlideBy(slideBy => slideBy - cardDim.width - 4)
+        } else {
+            setSlideBy(slideBy => slideBy - cardDim.width*slideMultiplier - 4)
+        }
     }
 
     const prevClick = (e) => {
         e.preventDefault();
         setRight(right => right-1)
         setLeft(left => left - 1)
-        setSlideBy(slideBy => slideBy + cardDim.width)
-    }
+        if (left > 1) {
+            setSlideBy(slideBy => slideBy + cardDim.width + 4)
+        } else {
+            setSlideBy(slideBy => slideBy + cardDim.width*slideMultiplier + 4)
+        }
 
-    const getCardWidth = (dim) => {
-        setCardDim(dim)
-        setRight(sliderDim.width/cardDim.width)  
+        
     }
 
     return (
@@ -66,7 +85,7 @@ const SliderBar = (props, size) => {
 
             {
                 props.content.map((movie, key)=> 
-                    <Card movie={movie} key={key} getWidth={getCardWidth} style={styles} id={key}/>
+                    <Card movie={movie} key={key} style={styles} id={key}/>
                 )
             }
 

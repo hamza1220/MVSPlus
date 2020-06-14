@@ -125,7 +125,7 @@ const Movie = ({ match, location }) => {
 		        </Grid>
 	      	</Grid>
 
-	      	{ similar?.length>0 && (
+	      	{ reviews?.length>0 && (
 				<>
 					<div className="movie-body"> <div className="movie-body-title"> <span>Reviews</span> </div></div>
 					<div className="movie-reviews-similar-container"> 

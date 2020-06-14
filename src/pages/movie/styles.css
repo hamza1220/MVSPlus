@@ -35,9 +35,6 @@
 
 .movie-backdrop-img {
 	width: 100%;
-	/*min-width: 100%;*/
-	/*height: 100%;*/
-
 }
 
 .movie-backdrop-overlay {
@@ -182,6 +179,9 @@
 }
 
 @media screen and (max-width: 1025px) {
+	.movie-header {
+		min-height: 1024px;
+	}
 
 	.movie-backdrop-img {
 		position: absolute;
@@ -194,7 +194,7 @@
 		height: 80%;
 	}
 
-	.movie-poster{
+	.movie-poster {
 		display: inline-block;
 		max-width: 300px !important; 
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -263,6 +263,7 @@
 @media screen and (max-width: 479px) {
 	.movie-header {
 		margin-bottom: 50px;
+		min-height: 660px;
 	}
 
 	.movie-header .movie-backdrop {

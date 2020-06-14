@@ -104,6 +104,7 @@
 @media screen and (max-width: 1025px) {
 	.jumbotron {
 		overflow: hidden;
+		min-height: 1024px;
 	}
 
 	.jumbotron-backdrop {
@@ -131,12 +132,13 @@
 
 @media screen and (max-width: 479px) {
 	.jumbotron {
-		height: 45vh;
+		height: 100vh;
+		min-height: 660px;
 	}
 
 	.jumbotron-backdrop {
-		width: 175%;
-		left: -37.5%;
+		height: 100vh;
+		min-height: 660px;
 	}
 
 	.jumbotron-title {

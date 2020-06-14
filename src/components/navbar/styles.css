@@ -27,7 +27,7 @@
 	justify-content: center;
 }
 
-.logo, .logo a, .logo a:active, .logo a:visited {
+.logo, .logo a, .logo a:active, .logo a:visited, .logo a:focus {
 	text-decoration: none;
 	color: gold;
 }
