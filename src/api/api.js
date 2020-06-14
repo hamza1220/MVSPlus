@@ -132,7 +132,8 @@ export const search = async(type, query) => {
 			api_key: api_key,
 			language: 'en_US',
 			query: query,
-			page: 1
+			page: 1,
+			include_adult: false
 		}
 	});
 	return req.data;
