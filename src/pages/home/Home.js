@@ -22,7 +22,7 @@ const Home = (props) => {
   return (
     <div>
       <Jumbotron content={popular[1]?? null} scrollTo="content" genres={genres}/>
-      <div className="content-wrapper" id="content">
+      <div style={{paddingTop: '80px'}} id="content">
         <Slider content={nowPlaying} title={"Now Playing"} sliderClass={""} arrows={true}/>
         <Slider content={popular} title={"Popular"} sliderClass={""} arrows={true}/>
         <Slider content={topRated} title={"Top Rated"} sliderClass={""} arrows={true}/>
