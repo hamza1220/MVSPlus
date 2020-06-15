@@ -16,3 +16,4 @@ The Movie Sliders have been inspired by Netflix.
 - Lazy Loading
 - Storing Visitors last viewed using cookies
 - Extending the scope to include TV content
+- Pagination for Search Results
