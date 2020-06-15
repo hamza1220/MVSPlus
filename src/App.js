@@ -8,6 +8,7 @@ import Home from './pages/home/Home';
 import Movie from './pages/movie/Movie'
 import Search from './pages/search/Search'
 import ScrollToTop from './components/scrollToTop/scrollToTop'
+import Footer from './components/footer/footer'
 
 import './App.css';
 
@@ -37,6 +38,7 @@ class App extends Component {
             <Route path='/Movie/:id' component={Movie} />
             <Route path='/Search' component={Search} />
           </Switch>
+          <Footer/>
         </div>
       </ThemeProvider>
     )
