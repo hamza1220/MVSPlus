@@ -9,6 +9,7 @@ import Movie from './pages/movie/Movie'
 import Search from './pages/search/Search'
 import ScrollToTop from './components/scrollToTop/scrollToTop'
 import Footer from './components/footer/footer'
+import Error404 from './pages/Error404/Error404'
 
 import './App.css';
 
@@ -37,6 +38,7 @@ class App extends Component {
             <Route exact path='/' component={Home} />
             <Route path='/Movie/:id' component={Movie} />
             <Route path='/Search' component={Search} />
+            <Route component={Error404} />
           </Switch>
           <Footer/>
         </div>

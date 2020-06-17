@@ -4,6 +4,8 @@ import Jumbotron from '../../components/jumbotron/jumbotron'
 import Slider from '../../components/slider/slider'
 // import Loader from './loader'
 
+import '../../App.css';
+
 const Home = (props) => {
   const [popular, setPopular] = useState([]);
   const [nowPlaying, setNowPlaying] = useState([]);
@@ -21,8 +23,8 @@ const Home = (props) => {
 
   return (
     <div>
-      <Jumbotron content={popular[1]?? null} scrollTo="content" genres={genres}/>
-      <div style={{paddingTop: '80px'}} id="content">
+      <Jumbotron content={popular[0]?? null} scrollTo="content" genres={genres}/>
+      <div className="nav-margin" id="content">
         <Slider content={nowPlaying} title={"Now Playing"} sliderClass={""} arrows={true}/>
         <Slider content={popular} title={"Popular"} sliderClass={""} arrows={true}/>
         <Slider content={topRated} title={"Top Rated"} sliderClass={""} arrows={true}/>

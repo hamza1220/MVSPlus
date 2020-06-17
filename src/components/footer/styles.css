@@ -8,9 +8,15 @@
     justify-content: center;
     margin-top: 30px;
     box-shadow: 0px 0 10px rgba(0, 0, 0, 0.6);
+    bottom: 0; 
 }
 
-.footer-author a, .footer-author a:visited, .footer-author a:active, .footer-author a:focus, .footer-author a:hover, .footer-author a:link {
+.footer-author a, 
+.footer-author a:visited, 
+.footer-author a:active, 
+.footer-author a:focus, 
+.footer-author a:hover, 
+.footer-author a:link {
     text-decoration: none;
     color: gold;
 }
@@ -45,6 +51,4 @@
     .footer-author::after { 
         border-left: 1px solid transparent;
     }
-
-
 }
